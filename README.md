@@ -16,4 +16,4 @@
    - **Paso 1:** cargar un autor.
    - **Paso 2:** cargar una categoría (ej: "Playa").
    - **Paso 3:** crear un post (ej: Título: "Viaje a la Costa").
-   - **Paso 4:** escribir "Costa" en el cuadro y presionar Buscar. El resultado aparecerá debajo del formulario.
+   - **Paso 4:** escribir "Viaje" en el cuadro y presionar Buscar. El resultado aparecerá debajo del formulario.
