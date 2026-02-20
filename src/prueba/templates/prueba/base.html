@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog de Viajes</title>
+</head>
+<body>
+    <nav>
+        <a href="{% url 'Inicio' %}">Inicio</a> | 
+        <a href="{% url 'AutorNuevo' %}">Cargar Autor</a> |
+        <a href="{% url 'CategoriaNueva' %}">Cargar Categoría</a> |
+        <a href="{% url 'PostNuevo' %}">Cargar Post</a> |
+        <a href="{% url 'Buscar' %}">Buscar Post</a>
+    </nav>
+    <hr>
+    {% block contenido %}
+    <h1>Bienvenido al Blog de Viajes</h1>
+    <p>Seleccioná una opción del menú para empezar.</p>
+    {% endblock %}
+</body>
+</html>
+
+
+

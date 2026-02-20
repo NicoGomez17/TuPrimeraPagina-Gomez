@@ -16,7 +16,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from prueba.views import inicio, crear_autor, crear_categoria, crear_post, buscar_post
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', inicio, name="Inicio"),
+    path('autor-nuevo/', crear_autor, name="AutorNuevo"),
+    path('categoria-nueva/', crear_categoria, name="CategoriaNueva"),
+    path('post-nuevo/', crear_post, name="PostNuevo"),
+    path('buscar/', buscar_post, name="Buscar"),
 ]
+
